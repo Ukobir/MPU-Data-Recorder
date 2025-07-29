@@ -66,6 +66,5 @@ def plot_all_sensor_data_styled(filepath):
         print(f"Ocorreu um erro inesperado: {e}")
 
 if __name__ == "__main__":
-    # Caminho corrigido para o ficheiro, incluindo a subpasta 'ArquivosDados'
     data_file = 'ArquivosDados/mpu6050_data.txt'
     plot_all_sensor_data_styled(data_file)
